@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.profile{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    background-color: rgba(66, 63, 63, 0.5);
+    height: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;   
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    margin-top: 40px;
+}
+.myButton{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+button{
+    height: 50px;
+    cursor: pointer;
+    background-color: rgba(46, 44, 44, 0.945);
+    border-radius: 25px;
+    font-size: large;
+    color: rgba(186, 190, 190, 0.918);
+}
+button:hover{
+    background-color: rgb(39, 30, 30);
+    color: grey;
+}
+.description{
+    color: yellow;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
